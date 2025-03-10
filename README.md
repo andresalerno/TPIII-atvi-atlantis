@@ -19,54 +19,13 @@ Obs.: todo convidado(dependente) tem um responsável, os dados de endereço e te
 <img src="./img/diagrama.png" alt="Diagrama" width="500"/>
 
 
-### Histórico de comandos
+## Rodar projeto
 
 ```powershell
-
-git remote remove origin
-
+git clone https://github.com/andresalerno/TPIII-atvi-atlantis.git
 ```
 
 ```powershell
-
-git remote -v  # Lista os remotes
-git remote remove origin  # Remove o remote original
-
-
-```
-
-```powershell
-
-git remote add origin https://github.com/andresalerno/atvi-atlantis.git
-
-```
-
-```powershell
-
-git branch -M main
-
-```
-
-```powershell
-
-git checkout -b dev
-
-```
-
-```powershell
-
-git add .
-
-```
-
-```powershell
-
-git commit -m "ajustes iniciais com pastas para back e frontend"
-
-```
-
-```powershell
-
-git push -u origin dev
-
+# atvi folder
+npm run dev
 ```
