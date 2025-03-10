@@ -26,6 +26,11 @@ git clone https://github.com/andresalerno/TPIII-atvi-atlantis.git
 ```
 
 ```powershell
+# rodar esse comando onde está o arquivo package.json
+npm install
+```
+
+```powershell
 # atvi folder
 npm run dev
 ```
